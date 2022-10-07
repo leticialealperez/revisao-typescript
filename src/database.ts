@@ -15,7 +15,7 @@ const listaContas: Contas = [
     saldo: 0.0,
     transacoes: [
       {
-        id: '1234',
+        id: '8974',
         data: new Date(),
         valor: 500.0,
         tipo: 'TED',
@@ -43,6 +43,13 @@ const listaContas: Contas = [
         tipo: 'Boleto',
         operacao: 'Entrada',
       },
+      {
+        id: '5678',
+        data: new Date(),
+        valor: 1000,
+        tipo: 'Boleto',
+        operacao: 'Entrada',
+      },
     ],
   },
   {
@@ -59,7 +66,7 @@ const listaContas: Contas = [
     saldo: 2000.0,
     transacoes: [
       {
-        id: '1234',
+        id: '6325',
         data: new Date(),
         valor: 2000.0,
         tipo: 'Pix',
