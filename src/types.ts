@@ -24,7 +24,7 @@ data
 
 */
 
-interface Conta {
+export interface Conta {
   titular: Titular;
   numero: number;
   agencia: number;
